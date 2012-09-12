@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:padding="10dip"
+    android:orientation="vertical">
+            <ScrollView
+                android:id="@+id/scrollView1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+				<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+						<ImageView android:id="@+id/imageView1" android:layout_width="150dp" android:layout_height="200dp" android:src="@drawable/lightcontrol"/>
+				        <TableRow>
+				            <TextView
+            android:id="@+id/livingroomlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Living Room"
+            android:textAppearance="?android:attr/textAppearanceLarge" 
+            android:minWidth="140dip" />
+        <Button
+            android:id="@+id/lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="On" />
+        <Button
+            android:id="@+id/loff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Off" />
+				            </TableRow>     
+				            <TableRow>           
+				                <TextView
+            android:id="@+id/ericroomlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Eric's Room"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/eon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="On" />
+        <Button
+            android:id="@+id/eoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Off" />
+				            </TableRow>
+				                <TableRow>
+				                    <TextView
+            android:id="@+id/alexroomlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Alex's Room"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/aon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="On" />
+        <Button
+            android:id="@+id/aoff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Off" />
+				            </TableRow>
+				                    <TableRow>                
+				                        <TextView
+            android:id="@+id/tonyroomlabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tony's Room"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+        <Button
+            android:id="@+id/ton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="On" />
+        <Button
+            android:id="@+id/toff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.0"
+            android:text="Off" />
+				            </TableRow>
+				    </TableLayout>
+            </ScrollView>
+</LinearLayout>

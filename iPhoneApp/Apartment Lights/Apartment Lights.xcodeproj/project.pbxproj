@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		828223C314C6AA45007FC868 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 828223C214C6AA45007FC868 /* Default@2x.png */; };
+		828223C614C6AA49007FC868 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 828223C514C6AA49007FC868 /* Default.png */; };
+		82BD657814C41D9900364D0E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BD657714C41D9900364D0E /* UIKit.framework */; };
+		82BD657A14C41D9900364D0E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BD657914C41D9900364D0E /* Foundation.framework */; };
+		82BD657C14C41D9900364D0E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82BD657B14C41D9900364D0E /* CoreGraphics.framework */; };
+		82BD658214C41D9900364D0E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 82BD658014C41D9900364D0E /* InfoPlist.strings */; };
+		82BD658414C41D9900364D0E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BD658314C41D9900364D0E /* main.m */; };
+		82BD658814C41D9A00364D0E /* PZAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BD658714C41D9A00364D0E /* PZAppDelegate.m */; };
+		82BD658B14C41D9A00364D0E /* PZViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BD658A14C41D9A00364D0E /* PZViewController.m */; };
+		82BD658E14C41D9A00364D0E /* PZViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 82BD658C14C41D9A00364D0E /* PZViewController.xib */; };
+		82ED228814C6A289003BA316 /* GCDAsyncUdpSocket.m in Sources */ = {isa = PBXBuildFile; fileRef = 82ED228714C6A289003BA316 /* GCDAsyncUdpSocket.m */; };
+		82ED229614C6A8E1003BA316 /* lightcontrol.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED229514C6A8E1003BA316 /* lightcontrol.png */; };
+		82ED229814C6A9C6003BA316 /* reg.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED229714C6A9C6003BA316 /* reg.png */; };
+		82ED229A14C6A9C9003BA316 /* retina.png in Resources */ = {isa = PBXBuildFile; fileRef = 82ED229914C6A9C8003BA316 /* retina.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		828223C214C6AA45007FC868 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		828223C514C6AA49007FC868 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		82BD657314C41D9900364D0E /* Lights.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lights.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BD657714C41D9900364D0E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		82BD657914C41D9900364D0E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		82BD657B14C41D9900364D0E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		82BD657F14C41D9900364D0E /* Apartment Lights-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Apartment Lights-Info.plist"; sourceTree = "<group>"; };
+		82BD658114C41D9900364D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		82BD658314C41D9900364D0E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82BD658514C41D9A00364D0E /* Apartment Lights-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Apartment Lights-Prefix.pch"; sourceTree = "<group>"; };
+		82BD658614C41D9A00364D0E /* PZAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZAppDelegate.h; sourceTree = "<group>"; };
+		82BD658714C41D9A00364D0E /* PZAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZAppDelegate.m; sourceTree = "<group>"; };
+		82BD658914C41D9A00364D0E /* PZViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PZViewController.h; sourceTree = "<group>"; };
+		82BD658A14C41D9A00364D0E /* PZViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PZViewController.m; sourceTree = "<group>"; };
+		82BD658D14C41D9A00364D0E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/PZViewController.xib; sourceTree = "<group>"; };
+		82ED228614C6A289003BA316 /* GCDAsyncUdpSocket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GCDAsyncUdpSocket.h; sourceTree = "<group>"; };
+		82ED228714C6A289003BA316 /* GCDAsyncUdpSocket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GCDAsyncUdpSocket.m; sourceTree = "<group>"; };
+		82ED229514C6A8E1003BA316 /* lightcontrol.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lightcontrol.png; sourceTree = SOURCE_ROOT; };
+		82ED229714C6A9C6003BA316 /* reg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = reg.png; sourceTree = "<group>"; };
+		82ED229914C6A9C8003BA316 /* retina.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = retina.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		82BD657014C41D9900364D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BD657814C41D9900364D0E /* UIKit.framework in Frameworks */,
+				82BD657A14C41D9900364D0E /* Foundation.framework in Frameworks */,
+				82BD657C14C41D9900364D0E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		82BD656814C41D9900364D0E = {
+			isa = PBXGroup;
+			children = (
+				828223C514C6AA49007FC868 /* Default.png */,
+				828223C214C6AA45007FC868 /* Default@2x.png */,
+				82ED229914C6A9C8003BA316 /* retina.png */,
+				82ED229714C6A9C6003BA316 /* reg.png */,
+				82BD657D14C41D9900364D0E /* Apartment Lights */,
+				82BD657614C41D9900364D0E /* Frameworks */,
+				82BD657414C41D9900364D0E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		82BD657414C41D9900364D0E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				82BD657314C41D9900364D0E /* Lights.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		82BD657614C41D9900364D0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82BD657714C41D9900364D0E /* UIKit.framework */,
+				82BD657914C41D9900364D0E /* Foundation.framework */,
+				82BD657B14C41D9900364D0E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		82BD657D14C41D9900364D0E /* Apartment Lights */ = {
+			isa = PBXGroup;
+			children = (
+				82ED229514C6A8E1003BA316 /* lightcontrol.png */,
+				82ED228614C6A289003BA316 /* GCDAsyncUdpSocket.h */,
+				82ED228714C6A289003BA316 /* GCDAsyncUdpSocket.m */,
+				82BD658614C41D9A00364D0E /* PZAppDelegate.h */,
+				82BD658714C41D9A00364D0E /* PZAppDelegate.m */,
+				82BD658914C41D9A00364D0E /* PZViewController.h */,
+				82BD658A14C41D9A00364D0E /* PZViewController.m */,
+				82BD658C14C41D9A00364D0E /* PZViewController.xib */,
+				82BD657E14C41D9900364D0E /* Supporting Files */,
+			);
+			path = "Apartment Lights";
+			sourceTree = "<group>";
+		};
+		82BD657E14C41D9900364D0E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				82BD657F14C41D9900364D0E /* Apartment Lights-Info.plist */,
+				82BD658014C41D9900364D0E /* InfoPlist.strings */,
+				82BD658314C41D9900364D0E /* main.m */,
+				82BD658514C41D9A00364D0E /* Apartment Lights-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		82BD657214C41D9900364D0E /* Apartment Lights */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 82BD659114C41D9A00364D0E /* Build configuration list for PBXNativeTarget "Apartment Lights" */;
+			buildPhases = (
+				82BD656F14C41D9900364D0E /* Sources */,
+				82BD657014C41D9900364D0E /* Frameworks */,
+				82BD657114C41D9900364D0E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apartment Lights";
+			productName = "Apartment Lights";
+			productReference = 82BD657314C41D9900364D0E /* Lights.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		82BD656A14C41D9900364D0E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 82BD656D14C41D9900364D0E /* Build configuration list for PBXProject "Apartment Lights" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 82BD656814C41D9900364D0E;
+			productRefGroup = 82BD657414C41D9900364D0E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				82BD657214C41D9900364D0E /* Apartment Lights */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		82BD657114C41D9900364D0E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BD658214C41D9900364D0E /* InfoPlist.strings in Resources */,
+				82BD658E14C41D9A00364D0E /* PZViewController.xib in Resources */,
+				82ED229614C6A8E1003BA316 /* lightcontrol.png in Resources */,
+				82ED229814C6A9C6003BA316 /* reg.png in Resources */,
+				82ED229A14C6A9C9003BA316 /* retina.png in Resources */,
+				828223C314C6AA45007FC868 /* Default@2x.png in Resources */,
+				828223C614C6AA49007FC868 /* Default.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		82BD656F14C41D9900364D0E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				82BD658414C41D9900364D0E /* main.m in Sources */,
+				82BD658814C41D9A00364D0E /* PZAppDelegate.m in Sources */,
+				82BD658B14C41D9A00364D0E /* PZViewController.m in Sources */,
+				82ED228814C6A289003BA316 /* GCDAsyncUdpSocket.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		82BD658014C41D9900364D0E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BD658114C41D9900364D0E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		82BD658C14C41D9A00364D0E /* PZViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				82BD658D14C41D9A00364D0E /* en */,
+			);
+			name = PZViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		82BD658F14C41D9A00364D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		82BD659014C41D9A00364D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = NO;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		82BD659214C41D9A00364D0E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apartment Lights/Apartment Lights-Prefix.pch";
+				INFOPLIST_FILE = "Apartment Lights/Apartment Lights-Info.plist";
+				PRODUCT_NAME = Lights;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		82BD659314C41D9A00364D0E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Apartment Lights/Apartment Lights-Prefix.pch";
+				INFOPLIST_FILE = "Apartment Lights/Apartment Lights-Info.plist";
+				PRODUCT_NAME = Lights;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		82BD656D14C41D9900364D0E /* Build configuration list for PBXProject "Apartment Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BD658F14C41D9A00364D0E /* Debug */,
+				82BD659014C41D9A00364D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		82BD659114C41D9A00364D0E /* Build configuration list for PBXNativeTarget "Apartment Lights" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				82BD659214C41D9A00364D0E /* Debug */,
+				82BD659314C41D9A00364D0E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 82BD656A14C41D9900364D0E /* Project object */;
+}
